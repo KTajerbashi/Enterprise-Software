@@ -1,0 +1,6 @@
+.vs
+WebApi/bin
+WebApi/obj
+
+WebApi.Client/bin
+WebApi.Client/obj
