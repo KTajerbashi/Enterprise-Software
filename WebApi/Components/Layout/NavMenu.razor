@@ -1,4 +1,9 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿<style>
+    .Text-Style {
+        font-size: 1.3rem;
+    }
+</style>
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">WebApi</a>
     </div>
@@ -8,21 +13,33 @@
 
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
-        <div class="nav-item px-3">
+        <div class="nav-item px-3 justify-content-around">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+                <span class="bi bi-house-door-fill-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">صفحه اصلی</span>
             </NavLink>
         </div>
 
-        <div class="nav-item px-3">
+        <div class="nav-item px-3 justify-content-around">
             <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+                <span class="bi bi-plus-square-fill-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">مدیریت</span>
             </NavLink>
         </div>
 
-        <div class="nav-item px-3">
+        <div class="nav-item px-3 justify-content-around">
             <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+                <span class="bi bi-list-nested-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">حضور غیاب</span>
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="-">
+                <span class="bi bi-list-nested-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">کارتابل</span>
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="weather">
+                <span class="bi bi-list-nested-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">فعالیت</span>
             </NavLink>
         </div>
     </nav>
