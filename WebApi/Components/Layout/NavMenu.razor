@@ -1,6 +1,6 @@
 ﻿<style>
     .Text-Style {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 </style>
 <div class="top-row ps-3 navbar navbar-dark">
@@ -14,32 +14,63 @@
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
         <div class="nav-item px-3 justify-content-around">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
                 <span class="bi bi-house-door-fill-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">صفحه اصلی</span>
             </NavLink>
         </div>
-
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="weather">
+                <i class="bi bi-calendar2-check-fill mx-2" aria-hidden="true"></i> <span class="Text-Style">حضور غیاب</span>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="cartable">
+                <i class="bi bi-person-lines-fill mx-2" aria-hidden="true"></i> <span class="Text-Style">کارتابل</span>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="controleInfo">
+                <i class="bi bi-kanban-fill mx-2" aria-hidden="true"></i> <span class="Text-Style">پلان</span>
+            </NavLink>
+        </div>
         <div class="nav-item px-3 justify-content-around">
             <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">مدیریت</span>
+                <i class="bi bi-building-gear mx-2" aria-hidden="true"></i> <span class="Text-Style">مدیریت</span>
             </NavLink>
         </div>
-
         <div class="nav-item px-3 justify-content-around">
             <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">حضور غیاب</span>
+                <i class="bi bi-ui-checks-grid mx-2" aria-hidden="true"></i> <span class="Text-Style">سیستم پرسنلی</span>
             </NavLink>
         </div>
-
-        <div class="nav-item px-3 justify-content-around">
-            <NavLink class="nav-link" href="-">
-                <span class="bi bi-list-nested-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">کارتابل</span>
-            </NavLink>
-        </div>
-
         <div class="nav-item px-3 justify-content-around">
             <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu mx-2" aria-hidden="true"></span> <span class="Text-Style">فعالیت</span>
+                <i class="bi bi-wallet2 mx-2" aria-hidden="true"></i> <span class="Text-Style">حقوق و دستمزد</span>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="reports">
+                <i class="bi bi-printer-fill mx-2" aria-hidden="true"></i> <span class="Text-Style">گزارشات</span>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="reports">
+                <i class="fas fa-sign-language mx-2" aria-hidden="true"></i> <span class="Text-Style">گزارشات</span>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="reports">
+                <i class="bi bi-check-circle-fill mx-2" aria-hidden="true"></i> <span class="Text-Style">گزارشات</span>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="reports">
+                <i class="bi bi-box-arrow-right mx-2" aria-hidden="true"></i> <span class="Text-Style">خروج</span>
+            </NavLink>
+        </div>
+         <div class="nav-item px-3 justify-content-around">
+            <NavLink class="nav-link" href="reports">
+                <i class="bi bi-door-open-fill mx-2" aria-hidden="true"></i> <span class="Text-Style">ورود</span>
             </NavLink>
         </div>
     </nav>
